@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="To Do List App">
+    <listeners>
+        <listener class-name="Listeners.ListenerClass"></listener>
+    </listeners>
+    <test name="Android">
+        <parameter name="DeviceName" value="ElshemyEmulator2"></parameter>
+        <parameter name="PlatformName" value="Android"></parameter>
+<classes>
+    <class name="TestCases.AddTaskTest"></class>
+</classes>
+    </test>
+</suite>
